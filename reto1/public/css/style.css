@@ -1,0 +1,99 @@
+body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.espacio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.circulo{
+    width: 8vw;
+    height: 17vh;
+    position: absolute;
+    bottom: 73%;
+    left: 45.8%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 7.5vw ;
+    height: 16vh;
+    position: relative;
+    top: 3%;
+}
+h5{
+    position: relative;
+    top: 2vh;
+    font-size: 95%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.fondo-formulario{
+    width: 36vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+input{
+    margin-top: 3%;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    width: 22vw;
+    height: 5vh;
+    border-radius: 8px;
+}
+
+#boton-login{
+    margin-top: 8%;
+    width: 18vw;
+    background-color: #041d8d;
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.entradas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.entradas2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    left: 20%;
+}
+#unete{
+    position: relative;
+    left: 37%;
+}
+#boton-registro{
+    margin-top: 8%;
+    width: 18vw;
+    background-color: #041d8d;
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    left: 6%;
+}

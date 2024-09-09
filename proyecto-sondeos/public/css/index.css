@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    gap: 46vw;
+}
+.redes{
+    margin-top: 2.4%;
+    gap: 20vw;
+    margin-right: 2vw;
+}
+.boton-iniciarsesion{
+    margin-right: 2vw;
+}
+.logo{
+    margin-top: 0.5vw;
+    margin-right: 8vw;
+    margin-left: 3vw;
+    width: 15vw;
+    margin-bottom: 1vw;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+.banner img{
+    margin-top: 0;
+    width: 100%;
+}
+.boton-blog{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 33vw;
+    left: 19vw;
+    width: 13vw;
+    height: 4.4vw;
+    border-radius: 7px;
+    background-color: #AA0E5D;
+}
+.boton-blog h2{
+    margin-top: 10%;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+}
+.boton-ingresar{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 125vw;
+    left: 17vw;
+    width: 13vw;
+    height: 4.4vw;
+    border-radius: 7px;
+    background-color: #FFB324;
+}
+.boton-ingresar h2{
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+.footer {
+    background-image: url('/img/footer.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    text-align: right;
+
+    height: 40vh;
+}
+.footer-content{
+    margin-top: 5vw;
+    margin-right: 10vw ;
+}
+.footer-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}

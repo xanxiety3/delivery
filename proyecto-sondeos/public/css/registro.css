@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/imagenRegistro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.logo{
+    width: 11vw;
+}
+.texto{
+    position: absolute;
+    right: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 680%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+h5{
+    font-size:130%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.padre{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 40vw;
+    height: 96vh;
+    margin-left: 46vw;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.primera-fila{
+    margin-right: 3vw;
+    margin-top: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3vw;
+    height: 20vh;
+}
+.segunda-fila{
+    margin-right: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3vw;
+    height: 15vw;
+    gap: 3vw;
+}
+
+.hijo{
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-direction: column; /* Organiza los elementos en columna */
+    width: 14vw;
+    height: 35vh;
+    gap: 0.1%;
+}
+.hijo4{
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-direction: column; /* Organiza los elementos en columna */
+    width: 12vw;
+    height: 35vh;
+    gap: 0.2%;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    color: rgb(150, 150, 150);
+}
+label{
+    width: 13vw;
+    margin-top: 0.5vw;
+    color: #073174;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+}
+input {
+    width: 13vw;
+    opacity: 100%;
+    height: 1.3vw;
+    border-radius: 6px;
+    border-color: #ffffff  ;
+    border-style:inset;
+    background-color: rgb(255, 255, 255);    
+    
+}
+
+#acceso_internet_id{
+    width: 4vw;
+    height: 1.5vh;
+}
+
+
+#tipo_discapacidad_id, #regimen__salud_id, #medio_tecnologico, #tipo_documento_id, #sexo_id, #nivel_educativo_id, #etnia_id, #estrato_socioeconomico_id{
+    width: 13vw;
+    height: 3vh;
+    border-radius: 6px;
+    border:2px;
+    border-style:inset;
+    border-color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    gap: 0.1%;
+}
+#botonn{
+    margin-top: 3vw ;
+    background-color: #3361bd;
+    border: none;
+    width: 16vw;
+    height: 2.2vw;
+    opacity: 100%;
+    color: white;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#acceso_tecnologia_id{
+    width: 5vw;
+    height: 2vh;
+    display: flex;
+    align-items: center
+    ;
+}
+
+.radioButons{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.opc{
+    width: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acceso_tec{
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
